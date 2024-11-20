@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <title>Meu dinossauro fugiu, você pode me ajudar a achá-lo?</title>
+</head>
+<body>
+    <main>
+      <div class="passo ativo" id="passo-0">
+      <img src="cenario-passo0.png" alt="">
+        <p>Olá, eu sou Timmy, um garoto de 12 anos. Eu tenho um dinossauro chamado Rex. Rex é um Allosaurus. O Rex fugiu de casa, você me ajudaria a procurá-lo?</p>
+      <button class="btn-proximo" data-proximo="1">Claro!</button>
+      <button class="btn-proximo" data-proximo="2">Não, o dinossauro é seu.</button>
+      </div>
+
+      <div class="passo" id="passo-1">
+        <img src="cenario-passo1.png" alt="">
+        <p>Certo, vamos começar a procurá-lo pelo parque, ele adora passear pelo parque.
+            Chegando ao parque, não encontramos nenhum sinal de Rex. O que fazer agora?</p>
+        <button class="btn-proximo" data-proximo="3">Não sei</button>
+        <button class="btn-proximo" data-proximo="3">Vamos para o parque aquático</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <img src="cenario-passo0.png" alt="">
+        <p>Timmy: Ah, tudo bem. Vou tentar procurá-lo sozinho... Mas obrigado mesmo assim.
+            Se eu achá-lo eu te aviso! Para você não ficar preocupado, tá bom?</p>
+        <button class="btn-proximo" data-proximo="4">Pode ir procurá-lo, ninguém mandou não cuidar dele direto, por isso ele fugiu.</button>
+        <button class="btn-proximo" data-proximo="4">Não precisa me avisar nada, eu não vou ficar preocupado com os bichos dos outros, tenho um gatinho pra cuidar e ele nunca fugiu porque eu cuido muito bem dele...</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <img src="cenario-passo2.png" alt="">
+            <p>Então vamos ao parque aquático, afinal, Rex gosta muito de brincar com a água.
+                Chegando lá, pulamos em algumas piscinas mas nada de encontrar o Rex, e agora?</p>
+            <button class="btn-proximo" data-proximo="5">Vamos para o pasto, ele deve estar brincando com
+                as vacas.</button>
+            <button class="btn-proximo" data-proximo="5">Não sei</button>
+            </div>
+
+            <div class="passo" id="passo-4">
+                <img src="cenario-passo0.png" alt="">
+                <p>Timmy: Ah, certo... Me desculpe se eu incomodei você, onde eu estava com a cabeça, o Rex e meu, eu que tenho que arcar com as responsabilidades, me perdoe.</p>
+                <button class="btn-proximo" data-proximo="6">...</button>
+                </div>
+
+                <div class="passo" id="passo-5">
+                    <img src="cenario-passo2.png" alt="">
+                    <p>O Rex adora brincar com as vacas, vamos para
+                        o pasto!</p>
+                    <button class="btn-proximo" data-proximo="7">Certo</button>
+                    </div>
+
+                    <div class="passo" id="passo-6">
+                        <img src="cenario-passo5.png" alt="">
+                        <p>Um tempo se passa, você está fazendo uma simples caminhada, mas olha só... infelizmente o mesmo dinossauro que você se recusou a encontrá-lo acaba encontrando com você, ele ainda se encontra perdido, e por conta disso ele está com bastante fome, ao percebê-lo, Rex abre sua enorme boca e te devora, você sente sua carne sendo rasgada e triturada pelos enormes dentes afiados e seus ossos sendo quebrados, você sabe que não pode fazer nada a respeito, afinal, quando você menos percebe você já está morto. (seu gato ficará esperando eternamente por você)</p>
+                        <button class="btn-proximo" data-proximo="8">...</button>
+                        </div>
+
+                        <div class="passo" id="passo-7">
+                            <img src="cenario-passo3.png" alt="">
+                            <p>Ao chegarem no pasto, Rex estava brincando de pular cerca com as vacas e ovelhas.
+                                Timmy fica muito feliz de encontrá-lo.
+                                “Muito obrigado por me ajudar a encontrar o Rex!
+                                Se não fosse por você nunca encontraria ele, muito obrigado!”</p>
+                            <button class="btn-proximo" data-proximo="9">...</button>
+                            </div>   
+                            
+                            <div class="passo" id="passo-8">
+                                <img src="cenario-passo42.png" alt="">
+                                <p class="frase2"> BAD ENDING</p>
+                                <p>Para sua felicidade, tudo era um sonho.
+                                    Você acorda no meio da noite, você está muito suado e com o nariz entupido,
+                                    ao perceber que aquela situação era um sonho e não
+                                     existia dinossauro nenhum, você se pergunta:
+                                    “Que sonho foi esse?”
+                                    Você pensa no sonho e sente um pouco de desconforto e se sente observado.
+                                    Depois de um tempo você dorme novamente.
+                                    </p>
+                                <button class="btn-proximo" data-proximo="0">REINICIAR</button>
+                                </div>
+
+                                <div class="passo" id="passo-9">
+                                    <img src="cenario-passo4.png" alt="">
+                                    <p class="frase2"> GOOD ENDING</p>
+                                    <p>Você acorda com o sol nascendo, os passarinhos estão cantando e seu gato está dormindo no seu colo, ao perceber que aquela situação era um sonho e não existia dinossauro nenhum, você se pergunta:
+                                        “Que sonho foi esse?”
+                                        Você pensa no sonho e acha um pouco engraçado tudo aquilo.
+                                        Você se levanta com disposição para viver esse novo dia.</p>
+                                    <button class="btn-proximo" data-proximo="0">REINICIAR</button>
+                                    </div> 
+
+       
+
+
+    </main>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
